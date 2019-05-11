@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9572a114-aed3-4864-a085-00403af3e5ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/sorting/BoubleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/sorting/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/CompleteBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/CompleteBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/completetree/CompleteBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/completetree/CompleteBinaryTree.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,74 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/CompleteBinaryTree.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/sorting/BoubleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
-              <folding>
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="e#1143#1144#0" expanded="true" />
-                <element signature="e#1343#1344#0" expanded="true" />
-                <element signature="e#1385#1386#0" expanded="true" />
-                <element signature="e#1413#1414#0" expanded="true" />
-                <element signature="e#1452#1453#0" expanded="true" />
-                <element signature="e#2550#2551#0" expanded="true" />
-                <element signature="e#2640#2641#0" expanded="true" />
-                <element signature="e#2734#2735#0" expanded="true" />
-                <element signature="e#2831#2832#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/SortArr.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/sorting/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/binarytree/Tree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/Tree/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -142,6 +89,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/SortArr.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/CompleteBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/sorting/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/sorting/BoubleSort.java" />
       </list>
     </option>
   </component>
@@ -222,6 +171,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="structures" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="prog1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="prog1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="structures" type="462c0819:PsiDirectoryNode" />
               <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -233,7 +191,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557573959954" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557577060377" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -254,7 +212,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CompleteBinaryTree">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="BinaryTreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.karpielpaulina.structures.binarytree.BinaryTreeApp" />
       <module name="prog1" />
@@ -281,12 +239,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KopiecAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.karpielpaulina.structures.binarytree.KopiecAdd" />
+    <configuration name="SortArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.karpielpaulina.structures.completetree.SortArr" />
       <module name="prog1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.karpielpaulina.structures.binarytree.*" />
+          <option name="PATTERN" value="pl.karpielpaulina.structures.completetree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,12 +252,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.karpielpaulina.structures.completetree.SortArr" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.karpielpaulina.structures.sorting.Test" />
       <module name="prog1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.karpielpaulina.structures.completetree.*" />
+          <option name="PATTERN" value="pl.karpielpaulina.structures.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -322,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.CompleteBinaryTree" />
         <item itemvalue="Application.SortArr" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.BinaryTreeApp" />
-        <item itemvalue="Application.KopiecAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -395,12 +353,12 @@
       <window_info id="Favorites" order="7" sideWeight="0.5010707" side_tool="true" weight="0.2590604" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21671388" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21671388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.32719547" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -649,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/SortArr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -665,8 +616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/CompleteBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="136" column="9" lean-forward="true" selection-start-line="136" selection-start-column="9" selection-end-line="136" selection-end-column="9" />
+        <state relative-caret-position="2652">
+          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
           <folding>
             <element signature="e#863#864#0" expanded="true" />
             <element signature="e#906#907#0" expanded="true" />
@@ -681,6 +632,27 @@
             <element signature="e#2734#2735#0" expanded="true" />
             <element signature="e#2831#2832#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/SortArr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/sorting/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/sorting/BoubleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
