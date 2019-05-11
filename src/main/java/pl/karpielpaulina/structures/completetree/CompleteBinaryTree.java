@@ -19,18 +19,52 @@ public class CompleteBinaryTree {
         tree.add(11);
         tree.add(18);
 
-
-
         System.out.print(tree.arrayList);
 
-    }
+        System.out.println("--------------------");
 
+
+        tree.remove();
+        tree.remove();
+
+
+        System.out.println(tree.arrayList);
+
+
+    }
     private ArrayList<Integer> arrayList = new ArrayList<>();
 
     int getParentIndex(int childIndex) {
+        return (childIndex - 1) / 2;
+    }
+
+    int getLeftValue(int parentIndex) {
+        int leftChildIndex = getLeftChildIndex(parentIndex);
+        return getValue(leftChildIndex);
+    }
+
+    int getLeftChildIndex(int parentIndex) {
+        return 2 * parentIndex + 1;
+    }
+
+    int getRightValue(int parentIndex) {
+        int rightChildIndex = getRightChildIndex(parentIndex);
+        return getValue(rightChildIndex);
+    }
+
+    int getRightChildIndex(int parentIndex) {
+        return 2 * parentIndex + 2;
+    }
+
+
+    int getTreeLength() {
+        return arrayList.size();
+    }
+
+   /* int getParentIndex(int childIndex) {
         int o = childIndex;
         return (o - 1) / 2;
-    }
+    }*/
 
     int getRightIndex(int parentIndex) {
         int l = parentIndex;
@@ -52,7 +86,7 @@ public class CompleteBinaryTree {
     }
 
     private void addAtIndex(int koncowyElement) {
-        if(koncowyElement == 0){
+        if (koncowyElement == 0) {
             return;
         }
         int value = getValue(koncowyElement);
@@ -63,7 +97,7 @@ public class CompleteBinaryTree {
             if (parentValue < value) {
                 arrayList.set(parentIndex, value);
                 arrayList.set(koncowyElement, parentValue);
-                addAtIndex(parentIndex);                    //zastosowanie rekurencja
+                addAtIndex(parentIndex);                    //zastosowanie rekursywnie
             }
         }
     }
@@ -71,6 +105,79 @@ public class CompleteBinaryTree {
     Integer getValue(int index) {
         return arrayList.get(index);
     }
+
+    boolean isLeaf(int index) {
+        return (2 * index) + 2 > arrayList.size();
+    }
+
+    boolean hadLeftChild(int index) {
+        return 2 * index + 1 < arrayList.size();
+    }
+
+    boolean hadRightChild(int index) {
+        return (2 * index + 2) < arrayList.size();
+    }
+
+
+    private void remove() {
+        int lastElementIndex = arrayList.size() - 1;
+        int headValue;
+        if(lastElementIndex < 0){
+            return;
+        }
+        int lastValue = arrayList.remove(lastElementIndex);
+        if(lastElementIndex == 0){
+            headValue = lastValue;
+        }else{
+            headValue = getValue(0);
+            arrayList.set(0, lastValue);//zamiana 3 z 25
+            int currentIndex = 0;
+
+            removeSwap(currentIndex);
+        }
+
+        System.out.println("Remove value: " + headValue);
+
+    }
+
+    private void removeSwap(int currentIndex) {
+        if (isLeaf(currentIndex)) {
+            return;
+        }
+        int highestChildIndex = removeFrom(currentIndex);
+
+        int currentValue = getValue(currentIndex);
+        int highestChildValue = getValue(highestChildIndex);
+
+        if(currentValue < highestChildValue ){
+            arrayList.set(currentIndex, highestChildValue);
+            arrayList.set(highestChildIndex, currentValue);
+            removeSwap(highestChildIndex);
+        }
+
+    }
+
+    private int removeFrom (int currentIndex){
+        int highestChildIndex=-1;
+        if (hadLeftChild(currentIndex) && hadRightChild(currentIndex)) {
+            int leftChildIndex = getLeftChildIndex(currentIndex);
+            int leftValue = getValue(leftChildIndex);
+            int rightChildIndex = getRightChildIndex(currentIndex);
+            int rightValue = getValue(rightChildIndex);
+
+            if (leftValue > rightValue) {
+                highestChildIndex = leftChildIndex;
+            } else {
+                highestChildIndex = rightChildIndex;
+            }
+        } else if (hadLeftChild(currentIndex)) {
+            highestChildIndex = getLeftChildIndex(currentIndex);
+        }
+        return highestChildIndex;
+    }
+
+
+
 
 
 }
