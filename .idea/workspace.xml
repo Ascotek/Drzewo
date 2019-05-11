@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9572a114-aed3-4864-a085-00403af3e5ec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/binarytree/BinaryTreeApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/binarytree/ChildEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/binarytree/KopiecAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/binarytree/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/CompleteBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/SortArr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/Sortowanie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/Test.java" afterDir="false" />
+    <list default="true" id="9572a114-aed3-4864-a085-00403af3e5ec" name="Default Changelist" comment="commit2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/CustomNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/prog1.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/CustomArrayList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/CustomLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/CustomNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/ListApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/QueueApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/SetApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/StosApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/Tree/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/Tree/Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/Tree/TreeApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/binarytree/BinaryTreeApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/binarytree/ChildEx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/binarytree/KopiecAdd.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/binarytree/Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/completetree/SortArr.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/completetree/Sortowanie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/pl/karpielpaulina/structures/completetree/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/Tree/TreeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/Tree/TreeApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,10 +48,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/CompleteBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+            <state relative-caret-position="332">
+              <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
               <folding>
-                <element signature="e#1965#1966#0" expanded="true" />
+                <element signature="e#1767#1768#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -220,7 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557561820172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557563168039" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -342,8 +352,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555234960139</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="kompletne drzewo binarne">
+      <created>1557562987562</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557562987562</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -359,14 +385,14 @@
       <window_info id="Favorites" order="7" sideWeight="0.5010707" side_tool="true" weight="0.2590604" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21671388" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21671388" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32784638" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932885" weight="0.32719547" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -407,10 +433,37 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit1" />
     <MESSAGE value="commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit2" />
+    <MESSAGE value="kompletne drzewo binarne" />
+    <option name="LAST_COMMIT_MESSAGE" value="kompletne drzewo binarne" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/binarytree/NodeChild.java" />
@@ -602,10 +655,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/karpielpaulina/structures/completetree/CompleteBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+        <state relative-caret-position="332">
+          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
           <folding>
-            <element signature="e#1965#1966#0" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
           </folding>
         </state>
       </provider>
