@@ -1,5 +1,6 @@
 package pl.karpielpaulina.structures.Tree;
 
+
 public class TreeApp {
     public static void main(String[] args) {
        /* Tree tree = new Tree();
@@ -17,8 +18,8 @@ public class TreeApp {
             System.out.println(child.getValue());
         }*/
 
-
-        Node root = new Node("A");
+/*
+       Node root = new Node("A");
 
         Node childB = new Node("B");
         Node childE = new Node("E");
@@ -42,6 +43,7 @@ public class TreeApp {
         root.addChild(childD);
         Tree tree = new Tree();
         tree.setRoot(root);
+*/
 
 
     }
